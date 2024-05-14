@@ -184,7 +184,7 @@ class thinker(Player):
 class inverse_thinker(Player):
     def __init__(self):
         self.strat=False
-        self.name="Thinker"
+        self.name="Inverse Thinker"
         self.other_strat=[]
         self.self_strat=[]
     def pick_strategy(self):
